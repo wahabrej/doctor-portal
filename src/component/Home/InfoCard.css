@@ -1,0 +1,39 @@
+.info-primary {
+  background: #2dc4bf;
+}
+.info-dark {
+  background: #3a4256;
+}
+.info {
+  height: 120px;
+  padding: 20px;
+
+  display: flex;
+}
+.icon {
+  font-size: 3em;
+  margin-right: 20px;
+}
+.image {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.single-doctor {
+  height: 400px;
+  width: 75%;
+  position: relative;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.single-doctor::before {
+  height: 400px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0.5;
+  background-color: #3a4256;
+}
